@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/39526be9-f521-4886-acc6-a89c722d100b" width="35%" alt="Nordik Seguros Banner">
 
-  <h1>NORDIK Seguros: Customer Segment Intelligence Framework</h1>
+  <h1>NORDIK Seguros:  Customer Segment Intelligence Framework</h1>
 
   <p><i>"Decoding multi-regional customer behavioral archetypes through advanced unsupervised learning"</i></p>
   
