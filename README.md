@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/39526be9-f521-4886-acc6-a89c722d100b" width="75%" alt="Nordik Seguros Banner">
+  <img src="https://github.com/user-attachments/assets/39526be9-f521-4886-acc6-a89c722d100b" width="35%" alt="Nordik Seguros Banner">
 
   <h1>NORDIK Seguros: Customer Segment Intelligence Framework</h1>
 
