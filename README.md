@@ -18,4 +18,4 @@
 # nordik_customer_segmentation
 An enterprise-grade **Customer Segment Intelligence (CSI) framework** engineered to discover and profile latent customer behavioral archetypes for optimized housing product cross-selling strategies.
 
-This repository deploys a production-ready, **12-stage analytical pipeline** that bridges the gap between high-dimensional transactional data and C-level commercial execution—utilizing advanced outlier isolation, PCA variance optimization, multi-metric cluster validation ($K$-Means), and generalization testing on unseen multi-regional datasets.
+This repository deploys a production-ready, **11-stage analytical pipeline** that bridges the gap between high-dimensional transactional data and C-level commercial execution—utilizing advanced outlier isolation, PCA variance optimization, multi-metric cluster validation ($K$-Means), and generalization testing on unseen multi-regional datasets.
