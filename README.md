@@ -53,3 +53,15 @@ This repository deploys a production-ready, **11-stage analytical pipeline** tha
 ├── requirements.txt                # Essential Python dependencies to ensure environment reproducibility.
 └── README.md                       # Project documentation and architectural overview.
 ```
+
+---
+
+## Data Privacy & Confidentiality Notice
+
+To adhere to strict industry compliance standards and protect corporate confidentiality, the datasets and metadata within this repository have been subjected to a rigorous anonymization process:
+
+* **Customer Identity Masking:** Personally Identifiable Information (PII), such as specific client names, contact details, and sensitive demographics, has been replaced with randomized synthetic placeholders to ensure full compliance with global data protection standards.
+* **Geospatial & Account Protection:** Original regional identifiers and specific insurance account numbers have been abstracted to prevent the inference of individual policyholder behavior or proprietary market distribution strategies.
+* **Product & Revenue Normalization:** Transactional values and product-specific labels have been normalized to protect the firm's competitive commercial intelligence and internal financial reporting structures.
+
+The operational pipeline logic, feature engineering, and unsupervised clustering methodology remain **100% faithful to the original business intelligence requirements**, ensuring full analytical reproducibility and pedagogical integrity while safeguarding the privacy of the original stakeholders.
