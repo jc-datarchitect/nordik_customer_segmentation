@@ -42,13 +42,14 @@ This repository deploys a production-ready, **11-stage analytical pipeline** tha
 ---
 
 ## Project Structure
+
 ```text
 /
-├── data/               # Raw and processed datasets
-├── notebooks/          # Exploratory analysis and model training
-├── src/                # Modular processing logic (DataPipeline)
-│   ├── __init__.py     # Package initialization
-│   └── nordik_seguros_pipeline.py
-├── requirements.txt    # Environment dependencies
-└── README.md           # Documentation
+├── data/               # Contains raw datasets and intermediate processed files for model ingestion.
+├── notebooks/          # Jupyter notebooks for exploratory data analysis, visualization, and model experimentation.
+├── src/                # Core modular processing logic and ML pipeline components.
+│   ├── __init__.py     # Signals to Python that this directory should be treated as a package.
+│   └── nordik_seguros_pipeline.py  # Contains the 'DataPipeline' class: encapsulates cleaning, feature engineering, and model inference.
+├── requirements.txt    # Essential Python dependencies to ensure environment reproducibility.
+└── README.md           # Project documentation and architectural overview.
 ```
