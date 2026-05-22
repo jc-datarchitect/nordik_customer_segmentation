@@ -19,3 +19,36 @@
 An enterprise-grade **Customer Segment Intelligence (CSI) framework** engineered to discover and profile latent customer behavioral archetypes for optimized housing product cross-selling strategies.
 
 This repository deploys a production-ready, **11-stage analytical pipeline** that bridges the gap between high-dimensional transactional data and C-level commercial execution—utilizing advanced outlier isolation, PCA variance optimization, multi-metric cluster validation ($K$-Means), and generalization testing on unseen multi-regional datasets.
+
+## Project Architecture & Insights
+
+* **The Analytical Pipeline:** Engineers a robust 11-step computational workflow, transitioning from raw high-dimensional transactional inputs to a standardized, normalized dimensional space for model training. 
+* **Advanced Governance:** Implements an automated `DataPipeline` class to ensure strict adherence to transformation logic (Log-scaling, StandardScaler, and feature engineering), eliminating training-serving skew when generalizing across unseen regional datasets.
+* **Unsupervised Intelligence:** Employs $K$-Means clustering to identify five distinct behavioral archetypes, validated through a rigorous *Silhouette & Elbow* methodology to maximize intra-cluster cohesion and inter-cluster separation.
+* **Commercial Application:** Bridges technical analytics with business strategy by mapping cluster-specific conversion rates, enabling data-driven identification of high-propensity segments for optimized housing insurance cross-selling.
+
+## Key Visualizations
+* **Clustering Diagnostics:** Elbow & Silhouette validation for optimal k-selection.
+* **Behavioral Heatmap:** Correlation matrix highlighting multi-regional feature relationships.
+
+---
+
+## Technical Stack
+* **Language:** Python 3.x
+* **Core Libraries:** `pandas`, `numpy`, `scikit-learn`
+* **Visualization:** `seaborn`, `matplotlib`
+* **Architecture:** Modularized pipeline via custom `DataPipeline` class for production-ready inference.
+
+---
+
+## Project Structure
+```text
+/
+├── data/               # Raw and processed datasets
+├── notebooks/          # Exploratory analysis and model training
+├── src/                # Modular processing logic (DataPipeline)
+│   ├── __init__.py     # Package initialization
+│   └── nordik_seguros_pipeline.py
+├── requirements.txt    # Environment dependencies
+└── README.md           # Documentation
+```
