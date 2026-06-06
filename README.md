@@ -46,7 +46,7 @@ This repository deploys a production-ready, **11-stage analytical pipeline** tha
 The project follows a modular structure designed for maintainability and scalability in data science workflows:
 
 ```text
-/
+nordik_customer_segmentation/
 ├── LICENSE                         # License information
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Essential Python dependencies
